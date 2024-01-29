@@ -1,0 +1,22 @@
+        .SEE {
+            justify-content: center;
+            position: relative;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            font-size: 2em;
+            letter-spacing: 4px;
+            overflow: hidden;
+            background: linear-gradient(90deg, #282b30, #fff, #282b30);
+            background-size: 80%;
+            animation: animate 20s linear infinite;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        }
+        @keyframes animate {
+          0% {
+            background-position: -1500%;
+          }
+          100% {
+            background-position: 1500%;
+          }
+        }

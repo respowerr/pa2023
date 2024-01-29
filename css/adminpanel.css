@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  body{
+     background-color: #282b30;
+  }
+
+  
+
+  /* BARRE MENU VERTICAL*/
+
+  .wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar{
+    width: 270px;
+    height: 100%;
+    background: #363740;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+  .wrapper .sidebar img{
+    width: 180px;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .sidebar ul li a {
+    padding: 20px;
+  }
+
+  .return {
+    margin-top: 20px;
+    border-top: 1px solid rgb(88, 88, 88);
+  }
+  
+  .wrapper .sidebar ul li a {
+    margin-left: 30px;
+  }
+  
+  .wrapper .sidebar ul li a{
+    color: #9FA2B4;
+    display: block;
+  }
+  
+  .wrapper .sidebar ul li a .fas{
+    width: 35px;
+  }
+  
+  .wrapper .sidebar ul li:hover{
+    background-color: #2f30386d;
+  }
+      
+  .wrapper .sidebar ul li:hover a{
+    color: #fff;
+  }
+
+  .wrapper .main_content{
+    width: 100%;
+    margin-left: 270px;
+  }
+  
+  @media (max-height: 500px){
+    .social_media{
+      display: none !important;
+    }
+  }
+
+  /*TABLEAU*/
+
+table {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid rgb(81, 81, 81);
+    border-radius: 7px ;
+    margin-top: 50px;
+}
+table th {
+    color: white;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+table td {
+    color: white;
+    text-align: center;
+    padding: 13px;
+    padding-top: 25px;
+}
+
+#rank {
+    margin-left: 15px;
+    color: white;
+}
+#lastlog {
+    font-size: 12px;
+}
+
+ul li a{
+  font-weight: bold;
+}
+
+.fa-gavel:hover {
+    color: red;
+}
+.fa-trash-can:hover{
+  color: red;
+}
+.fa-pencil:hover {
+  color: red;
+}
+.fa-scale-unbalanced-flip:hover{
+  color: red;
+}
+
+#research{
+  background-color: #282b30;
+  color: white;
+  height: 35px;
+  width: 500px;
+  text-align: center;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 19px;
+}

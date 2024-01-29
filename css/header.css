@@ -1,0 +1,33 @@
+    /*NAVBAR Resp*/
+      @media screen and (max-width: 1024px) {
+          .navbar-menu {
+            display: none;
+            background-color: #282b30;
+            text-align: center;
+          }
+        }
+        .toggler {
+          display: none;
+        }
+        
+        .navbar .toggler:checked + .navbar-brand .burger span:nth-child(1) {
+          -webkit-transform: translateY(5px) rotate(45deg);
+          transform: translateY(5px) rotate(45deg);
+        }
+        .navbar .toggler:checked + .navbar-brand .burger span:nth-child(2) {
+          opacity: 0;
+        }
+        .navbar .toggler:checked + .navbar-brand .burger span:nth-child(3) {
+          -webkit-transform: translateY(-5px) rotate(-45deg);
+          transform: translateY(-5px) rotate(-45deg);
+        }
+        @media screen and (max-width: 1024px) {
+          .navbar .toggler:checked ~ .navbar-menu {
+            display: block;
+          }
+        }
+
+
+          a.navbar-item:hover {
+                background-color: #282b30;;
+          }
