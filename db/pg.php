@@ -2,11 +2,11 @@
 
 class ConnexionPostgreSQL {
 
-    private $host = "uss-mtf.ddns.net";
+    private $host = "XXXXXXXXXXXX";
     private $port = "5798";
     private $dbname = "leak";
     private $user = "spock";
-    private $password = "P00sTGr3sQQl##";
+    private $password = "PASSWORD";
     private $pdo;
 
     public function connect() {
